@@ -1,0 +1,9 @@
+[package]
+name = "gst-transcoder"
+version = "0.1.0"
+authors = ["Fei Wong <wongfei2009@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+
+[dependencies]
+gstreamer = { package = "gstreamer", version = "0.15", features = ["v1_10"] }
